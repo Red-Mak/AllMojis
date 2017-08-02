@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  RMExtensionKeyboard
+
+  Created by Radhouani Malek on 13/04/2017.
+  Copyright © 2017 RedMak. All rights reserved.
+*/
+
+// emojis section titles
+"frequently_used" = "UTILISÉS FRÉQUEMMENT";
+"smilleys_&_people" = "ÉMOTICÔNES ET PERSONNAGES";
+"animals_&_nature" = "ANIMAUX ET NATURE";
+"food_&_drink" = "NOURRITURE ET BOISSONS";
+"activity" = "ACTIVITÉS";
+"travel_&_places" = "VOYAGES ET LIEUX";
+"objects" = "OBJETS";
+"symbols" = "SYMBOLES";
+"flags" = "DRAPEAUX";
+
+// tutorial
+"explanation" = "Faites un appuit long pour voir comment les emoji vont s'afficher dans les autres plateformes";

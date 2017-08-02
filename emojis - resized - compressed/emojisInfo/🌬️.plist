@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>emojiName</key>
+	<string> Wind Face</string>
+	<key>emojiNameFromHref</key>
+	<string>wind-blowing-face</string>
+	<key>emojiUniocode</key>
+	<string>🌬️</string>
+</dict>
+</plist>

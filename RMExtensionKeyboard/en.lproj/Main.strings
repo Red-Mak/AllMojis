@@ -1,0 +1,90 @@
+
+/* Class = "UITextField"; text = "yahoo"; ObjectID = "1w2-cG-Kb6"; */
+"1w2-cG-Kb6.text" = "yahoo";
+
+/* Class = "UITextField"; text = "phone pad"; ObjectID = "4sw-oM-rMG"; */
+"4sw-oM-rMG.text" = "phone pad";
+
+/* Class = "UITextField"; text = "go"; ObjectID = "6UG-qE-n0z"; */
+"6UG-qE-n0z.text" = "go";
+
+/* Class = "UITextField"; text = "search"; ObjectID = "70O-37-vgo"; */
+"70O-37-vgo.text" = "search";
+
+/* Class = "UITextField"; text = "join"; ObjectID = "7fL-45-Bit"; */
+"7fL-45-Bit.text" = "join";
+
+/* Class = "UITextField"; text = "google"; ObjectID = "9WG-i8-Tvq"; */
+"9WG-i8-Tvq.text" = "google";
+
+/* Class = "UITextField"; text = "route"; ObjectID = "CWu-wM-hFu"; */
+"CWu-wM-hFu.text" = "route";
+
+/* Class = "UITextField"; text = "default"; ObjectID = "EKq-ea-iZg"; */
+"EKq-ea-iZg.text" = "default";
+
+/* Class = "UITextField"; text = "number pad"; ObjectID = "EkJ-0Q-XW1"; */
+"EkJ-0Q-XW1.text" = "number pad";
+
+/* Class = "UITextField"; text = "emergency call"; ObjectID = "Gvm-kx-fGv"; */
+"Gvm-kx-fGv.text" = "emergency call";
+
+/* Class = "UITextField"; text = "default"; ObjectID = "Hkk-g1-EwM"; */
+"Hkk-g1-EwM.text" = "default";
+
+/* Class = "UITextField"; text = "twitter"; ObjectID = "Kr7-GM-pbI"; */
+"Kr7-GM-pbI.text" = "twitter";
+
+/* Class = "UILabel"; text = "download languages"; ObjectID = "Lih-8W-ztE"; */
+"Lih-8W-ztE.text" = "download languages";
+
+/* Class = "UITextField"; text = "URL"; ObjectID = "Mds-Ty-cld"; */
+"Mds-Ty-cld.text" = "URL";
+
+/* Class = "UITextField"; text = "next"; ObjectID = "PPl-vs-626"; */
+"PPl-vs-626.text" = "next";
+
+/* Class = "UITextField"; text = "decimal pad"; ObjectID = "U02-CW-el1"; */
+"U02-CW-el1.text" = "decimal pad";
+
+/* Class = "UILabel"; text = "Test keyBoard return keys + keyboard type + appearances "; ObjectID = "X2C-iD-tbE"; */
+"X2C-iD-tbE.text" = "Test keyBoard return keys + keyboard type + appearances ";
+
+/* Class = "UITextField"; text = "email"; ObjectID = "ZAj-d0-XXa"; */
+"ZAj-d0-XXa.text" = "email";
+
+/* Class = "UITextField"; text = "dark"; ObjectID = "bLh-r6-1Gz"; */
+"bLh-r6-1Gz.text" = "dark";
+
+/* Class = "UITextField"; text = "name phone pad"; ObjectID = "bLs-aa-xmW"; */
+"bLs-aa-xmW.text" = "name phone pad";
+
+/* Class = "UITextField"; text = "done"; ObjectID = "bdt-n6-eJZ"; */
+"bdt-n6-eJZ.text" = "done";
+
+/* Class = "UITextField"; text = "numb & ponc"; ObjectID = "fdw-6E-9Az"; */
+"fdw-6E-9Az.text" = "numb & ponc";
+
+/* Class = "UITextField"; text = "asscii capable"; ObjectID = "icu-jz-Lb4"; */
+"icu-jz-Lb4.text" = "asscii capable";
+
+/* Class = "UILabel"; text = "appearnance"; ObjectID = "ihN-Sp-O95"; */
+"ihN-Sp-O95.text" = "appearnance";
+
+/* Class = "UITextField"; text = "lignt"; ObjectID = "izx-Oh-h4H"; */
+"izx-Oh-h4H.text" = "lignt";
+
+/* Class = "UILabel"; text = "keyboard types"; ObjectID = "jiQ-8i-HxA"; */
+"jiQ-8i-HxA.text" = "keyboard types";
+
+/* Class = "UILabel"; text = "Installer le clavier"; ObjectID = "mfT-D5-mOc"; */
+"mfT-D5-mOc.text" = "Activate the keyboard";
+
+/* Class = "UITextField"; text = "send"; ObjectID = "ps9-Se-t9o"; */
+"ps9-Se-t9o.text" = "send";
+
+/* Class = "UITextField"; text = "web search"; ObjectID = "rg5-qj-3wO"; */
+"rg5-qj-3wO.text" = "web search";
+
+/* Class = "UILabel"; text = "return types:"; ObjectID = "tOf-ge-44g"; */
+"tOf-ge-44g.text" = "return types:";

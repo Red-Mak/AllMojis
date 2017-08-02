@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>💂🏻‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Guard, Type-1-2</string>
+			<key>emojiNameFromHref</key>
+			<string>male-guard-type-1-2</string>
+			<key>emojiUniocode</key>
+			<string>💂🏻‍♂️</string>
+		</dict>
+		<key>💂🏼‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Guard, Type-3</string>
+			<key>emojiNameFromHref</key>
+			<string>male-guard-type-3</string>
+			<key>emojiUniocode</key>
+			<string>💂🏼‍♂️</string>
+		</dict>
+		<key>💂🏽‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Guard, Type-4</string>
+			<key>emojiNameFromHref</key>
+			<string>male-guard-type-4</string>
+			<key>emojiUniocode</key>
+			<string>💂🏽‍♂️</string>
+		</dict>
+		<key>💂🏾‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Guard, Type-5</string>
+			<key>emojiNameFromHref</key>
+			<string>male-guard-type-5</string>
+			<key>emojiUniocode</key>
+			<string>💂🏾‍♂️</string>
+		</dict>
+		<key>💂🏿‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Guard, Type-6</string>
+			<key>emojiNameFromHref</key>
+			<string>male-guard-type-6</string>
+			<key>emojiUniocode</key>
+			<string>💂🏿‍♂️</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Man Guard</string>
+	<key>emojiNameFromHref</key>
+	<string>male-guard</string>
+	<key>emojiUniocode</key>
+	<string>💂‍♂️</string>
+</dict>
+</plist>

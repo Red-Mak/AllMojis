@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>👩🏻‍🍳</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Cook: Light Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>👩🏻‍🍳</string>
+		</dict>
+		<key>👩🏼‍🍳</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Cook: Medium-Light Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>👩🏼‍🍳</string>
+		</dict>
+		<key>👩🏽‍🍳</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Cook: Medium Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>👩🏽‍🍳</string>
+		</dict>
+		<key>👩🏾‍🍳</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Cook: Medium-Dark Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>👩🏾‍🍳</string>
+		</dict>
+		<key>👩🏿‍🍳</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Cook: Dark Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>👩🏿‍🍳</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Woman Cook</string>
+	<key>emojiUniocode</key>
+	<string>👩‍🍳</string>
+</dict>
+</plist>

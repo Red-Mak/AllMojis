@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>🕵🏻‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Sleuth, Type-1-2</string>
+			<key>emojiNameFromHref</key>
+			<string>male-sleuth-type-1-2</string>
+			<key>emojiUniocode</key>
+			<string>🕵🏻‍♂️</string>
+		</dict>
+		<key>🕵🏼‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Sleuth, Type-3</string>
+			<key>emojiNameFromHref</key>
+			<string>male-sleuth-type-3</string>
+			<key>emojiUniocode</key>
+			<string>🕵🏼‍♂️</string>
+		</dict>
+		<key>🕵🏽‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Sleuth, Type-4</string>
+			<key>emojiNameFromHref</key>
+			<string>male-sleuth-type-4</string>
+			<key>emojiUniocode</key>
+			<string>🕵🏽‍♂️</string>
+		</dict>
+		<key>🕵🏾‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Sleuth, Type-5</string>
+			<key>emojiNameFromHref</key>
+			<string>male-sleuth-type-5</string>
+			<key>emojiUniocode</key>
+			<string>🕵🏾‍♂️</string>
+		</dict>
+		<key>🕵🏿‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Male Sleuth, Type-6</string>
+			<key>emojiNameFromHref</key>
+			<string>male-sleuth-type-6</string>
+			<key>emojiUniocode</key>
+			<string>🕵🏿‍♂️</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Male Sleuth</string>
+	<key>emojiNameFromHref</key>
+	<string>male-sleuth</string>
+	<key>emojiUniocode</key>
+	<string>🕵️‍♂️</string>
+</dict>
+</plist>

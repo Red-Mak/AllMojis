@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q5y-ph-dWM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Axy-Sb-dG7">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Q5y-ph-dWM" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="soO-8d-aIK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="r4J-vB-bro" kind="relationship" relationship="rootViewController" id="72N-i1-lNo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zuz-ev-aSG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2708" y="296"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qBv-rL-pUp">
+            <objects>
+                <viewController id="r4J-vB-bro" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Xn-oD-aRg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pud-PM-qMq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wXb-lM-EQW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone_background_final.png" translatesAutoresizingMaskIntoConstraints="NO" id="t12-af-H7m">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone7_edited.png" translatesAutoresizingMaskIntoConstraints="NO" id="ve1-co-A7o">
+                                <rect key="frame" x="27.5" y="103.5" width="320" height="476"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="476" id="5NC-M8-9OE">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="457"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="320" id="lBP-cz-QiK">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="728"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="heightClass=regular-widthClass=regular" image="iPad_Mini_EN_edited.png"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Installer le clavier" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfT-D5-mOc">
+                                <rect key="frame" x="27" y="74.5" width="321" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5B-XV-bVz">
+                                <rect key="frame" x="48.5" y="183.5" width="278" height="395"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="396" id="REV-m6-l9e">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="395"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="414"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="278" id="VL6-mB-aMd">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="595"/>
+                                    </constraint>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="t12-af-H7m" secondAttribute="trailing" id="0OV-H6-oY1"/>
+                            <constraint firstItem="ve1-co-A7o" firstAttribute="centerX" secondItem="wXb-lM-EQW" secondAttribute="centerX" id="91W-2L-LHV"/>
+                            <constraint firstItem="mfT-D5-mOc" firstAttribute="leading" secondItem="wXb-lM-EQW" secondAttribute="leadingMargin" constant="11" id="Biw-ap-A6v"/>
+                            <constraint firstItem="Pud-PM-qMq" firstAttribute="top" secondItem="t12-af-H7m" secondAttribute="bottom" id="Gap-dq-jfc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mfT-D5-mOc" secondAttribute="trailing" constant="11" id="Gxw-u0-RZ0"/>
+                            <constraint firstItem="k5B-XV-bVz" firstAttribute="bottom" secondItem="ve1-co-A7o" secondAttribute="bottom" id="IRS-ac-5kd">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="-2"/>
+                            </constraint>
+                            <constraint firstItem="ve1-co-A7o" firstAttribute="centerY" secondItem="wXb-lM-EQW" secondAttribute="centerY" constant="8" id="KtH-xS-4QA">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-1.5"/>
+                            </constraint>
+                            <constraint firstItem="k5B-XV-bVz" firstAttribute="centerX" secondItem="wXb-lM-EQW" secondAttribute="centerX" id="MVU-Q0-iPO"/>
+                            <constraint firstItem="ve1-co-A7o" firstAttribute="top" secondItem="mfT-D5-mOc" secondAttribute="bottom" constant="8.5" id="Ps9-1z-jAG"/>
+                            <constraint firstItem="t12-af-H7m" firstAttribute="top" secondItem="wXb-lM-EQW" secondAttribute="top" id="pIv-is-VTm"/>
+                            <constraint firstItem="t12-af-H7m" firstAttribute="leading" secondItem="wXb-lM-EQW" secondAttribute="leading" id="yI2-Mb-2TK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="FrX-dp-H5d"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="videoPlayerView" destination="k5B-XV-bVz" id="0ll-EX-xDd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ldl-yr-Bto" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1413.28125" y="273.6328125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iPad_Mini_EN_edited.png" width="1769" height="1098"/>
+        <image name="iphone7_edited.png" width="886" height="1313"/>
+        <image name="iphone_background_final.png" width="1454" height="3285"/>
+    </resources>
+</document>

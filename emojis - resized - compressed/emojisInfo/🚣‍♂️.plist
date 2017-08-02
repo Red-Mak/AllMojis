@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>🚣🏻‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Man Rowing Boat, Type-1-2</string>
+			<key>emojiNameFromHref</key>
+			<string>man-rowing-boat-type-1-2</string>
+			<key>emojiUniocode</key>
+			<string>🚣🏻‍♂️</string>
+		</dict>
+		<key>🚣🏼‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Man Rowing Boat, Type-3</string>
+			<key>emojiNameFromHref</key>
+			<string>man-rowing-boat-type-3</string>
+			<key>emojiUniocode</key>
+			<string>🚣🏼‍♂️</string>
+		</dict>
+		<key>🚣🏽‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Man Rowing Boat, Type-4</string>
+			<key>emojiNameFromHref</key>
+			<string>man-rowing-boat-type-4</string>
+			<key>emojiUniocode</key>
+			<string>🚣🏽‍♂️</string>
+		</dict>
+		<key>🚣🏾‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Man Rowing Boat, Type-5</string>
+			<key>emojiNameFromHref</key>
+			<string>man-rowing-boat-type-5</string>
+			<key>emojiUniocode</key>
+			<string>🚣🏾‍♂️</string>
+		</dict>
+		<key>🚣🏿‍♂️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Man Rowing Boat, Type-6</string>
+			<key>emojiNameFromHref</key>
+			<string>man-rowing-boat-type-6</string>
+			<key>emojiUniocode</key>
+			<string>🚣🏿‍♂️</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Man Rowing Boat</string>
+	<key>emojiNameFromHref</key>
+	<string>man-rowing-boat</string>
+	<key>emojiUniocode</key>
+	<string>🚣‍♂️</string>
+</dict>
+</plist>

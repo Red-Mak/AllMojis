@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>✊🏻</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist, Type-1-2</string>
+			<key>emojiNameFromHref</key>
+			<string>raised-fist-type-1-2</string>
+			<key>emojiUniocode</key>
+			<string>✊🏻</string>
+		</dict>
+		<key>✊🏼</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist, Type-3</string>
+			<key>emojiNameFromHref</key>
+			<string>raised-fist-type-3</string>
+			<key>emojiUniocode</key>
+			<string>✊🏼</string>
+		</dict>
+		<key>✊🏽</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist, Type-4</string>
+			<key>emojiNameFromHref</key>
+			<string>raised-fist-type-4</string>
+			<key>emojiUniocode</key>
+			<string>✊🏽</string>
+		</dict>
+		<key>✊🏾</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist, Type-5</string>
+			<key>emojiNameFromHref</key>
+			<string>raised-fist-type-5</string>
+			<key>emojiUniocode</key>
+			<string>✊🏾</string>
+		</dict>
+		<key>✊🏿</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist, Type-6</string>
+			<key>emojiNameFromHref</key>
+			<string>raised-fist-type-6</string>
+			<key>emojiUniocode</key>
+			<string>✊🏿</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Raised Fist</string>
+	<key>emojiNameFromHref</key>
+	<string>raised-fist</string>
+	<key>emojiUniocode</key>
+	<string>✊</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  EmojiDecoder
+//
+//  Created by Radhouani Malek on 31/01/2016.
+//  Copyright © 2016 RedMak. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+@import AudioToolbox;
+@import RMExtensionsFramework;
+
+#import "Config.h"
+#import "IndexView.h"
+#import "KeyboardViewControllerGlobalKeyboardsProtocol.h"
+#import "CCHDarwinNotificationCenter.h"
+#import "EmojiImageView.h"
+#import "KeyBoardMainButton.h"
+#import "ButtonClickProtocol.h"
+#import "UIColor+RedMak.h"
+#import "KeyboardViewController.h"
+#import "MainKeyBoardModeViewController.h"
+#import "KeyBoardLineView.h"
+
+
+#endif /* PrefixHeader_pch */

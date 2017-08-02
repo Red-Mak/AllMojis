@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>🏌🏻</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Person Golfing: Light Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>🏌🏻</string>
+		</dict>
+		<key>🏌🏼</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Person Golfing: Medium-Light Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>🏌🏼</string>
+		</dict>
+		<key>🏌🏽</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Person Golfing: Medium Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>🏌🏽</string>
+		</dict>
+		<key>🏌🏾</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Person Golfing: Medium-Dark Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>🏌🏾</string>
+		</dict>
+		<key>🏌🏿</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Person Golfing: Dark Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>🏌🏿</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Person Golfing</string>
+	<key>emojiUniocode</key>
+	<string>🏌️</string>
+</dict>
+</plist>

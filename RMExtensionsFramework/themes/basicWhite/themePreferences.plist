@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>edgeInsetsKeysImage</key>
+	<integer>25</integer>
+	<key>alphaPixelNumberForCharacterImage</key>
+	<string>9</string>
+	<key>keyboardViewLightBackgroundColor</key>
+	<dict>
+		<key>red</key>
+		<string>210</string>
+		<key>green</key>
+		<string>213</string>
+		<key>blue</key>
+		<string>219</string>
+	</dict>
+	<key>lightKeyboardCharactertTextColor</key>
+	<dict>
+		<key>red</key>
+		<string>0</string>
+		<key>green</key>
+		<string>0</string>
+		<key>blue</key>
+		<string>0</string>
+	</dict>
+	<key>keyboardViewDarkBackgroundColor</key>
+	<dict>
+		<key>red</key>
+		<string>20</string>
+		<key>green</key>
+		<string>20</string>
+		<key>blue</key>
+		<string>20</string>
+	</dict>
+	<key>darkKeyboardCharactertTextColor</key>
+	<dict>
+		<key>red</key>
+		<string>255</string>
+		<key>green</key>
+		<string>255</string>
+		<key>blue</key>
+		<string>255</string>
+	</dict>
+	<key>displayName</key>
+	<string>Basic White</string>
+</dict>
+</plist>

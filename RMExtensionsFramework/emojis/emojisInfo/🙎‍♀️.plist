@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>🙎🏻‍♀️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Pouting, Type-1-2</string>
+			<key>emojiNameFromHref</key>
+			<string>woman-pouting-type-1-2</string>
+			<key>emojiUniocode</key>
+			<string>🙎🏻‍♀️</string>
+		</dict>
+		<key>🙎🏼‍♀️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Pouting, Type-3</string>
+			<key>emojiNameFromHref</key>
+			<string>woman-pouting-type-3</string>
+			<key>emojiUniocode</key>
+			<string>🙎🏼‍♀️</string>
+		</dict>
+		<key>🙎🏽‍♀️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Pouting, Type-4</string>
+			<key>emojiNameFromHref</key>
+			<string>woman-pouting-type-4</string>
+			<key>emojiUniocode</key>
+			<string>🙎🏽‍♀️</string>
+		</dict>
+		<key>🙎🏾‍♀️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Pouting, Type-5</string>
+			<key>emojiNameFromHref</key>
+			<string>woman-pouting-type-5</string>
+			<key>emojiUniocode</key>
+			<string>🙎🏾‍♀️</string>
+		</dict>
+		<key>🙎🏿‍♀️</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Woman Pouting, Type-6</string>
+			<key>emojiNameFromHref</key>
+			<string>woman-pouting-type-6</string>
+			<key>emojiUniocode</key>
+			<string>🙎🏿‍♀️</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Woman Pouting</string>
+	<key>emojiNameFromHref</key>
+	<string>woman-pouting</string>
+	<key>emojiUniocode</key>
+	<string>🙎‍♀️</string>
+</dict>
+</plist>

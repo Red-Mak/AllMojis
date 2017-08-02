@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523984761CBFD002007F7730 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984751CBFD002007F7730 /* main.m */; };
+		523984791CBFD002007F7730 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984781CBFD002007F7730 /* AppDelegate.m */; };
+		5239847C1CBFD002007F7730 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5239847B1CBFD002007F7730 /* ViewController.m */; };
+		5239847F1CBFD002007F7730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5239847D1CBFD002007F7730 /* Main.storyboard */; };
+		523984811CBFD002007F7730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523984801CBFD002007F7730 /* Assets.xcassets */; };
+		523984841CBFD002007F7730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523984821CBFD002007F7730 /* LaunchScreen.storyboard */; };
+		523984931CBFD031007F7730 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984921CBFD031007F7730 /* KeyboardViewController.m */; };
+		523984971CBFD031007F7730 /* RMKeyBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5239848F1CBFD031007F7730 /* RMKeyBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		523984A41CBFD0D3007F7730 /* RMExtensionsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 523984A31CBFD0D3007F7730 /* RMExtensionsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523984A81CBFD0D3007F7730 /* RMExtensionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523984A11CBFD0D3007F7730 /* RMExtensionsFramework.framework */; };
+		523984A91CBFD0D3007F7730 /* RMExtensionsFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523984A11CBFD0D3007F7730 /* RMExtensionsFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		523984AE1CBFD130007F7730 /* RMExtensionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523984A11CBFD0D3007F7730 /* RMExtensionsFramework.framework */; };
+		523984CA1CBFD275007F7730 /* KeyBoardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 523984C81CBFD274007F7730 /* KeyBoardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523984CB1CBFD275007F7730 /* KeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984C91CBFD274007F7730 /* KeyBoardManager.m */; };
+		523984DF1CBFD44A007F7730 /* UIColor+RedMak.h in Headers */ = {isa = PBXBuildFile; fileRef = 523984DD1CBFD44A007F7730 /* UIColor+RedMak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523984E01CBFD44A007F7730 /* UIColor+RedMak.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984DE1CBFD44A007F7730 /* UIColor+RedMak.m */; };
+		523984ED1CBFD4B2007F7730 /* TopAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984E51CBFD4B2007F7730 /* TopAccessoryView.m */; };
+		523984EE1CBFD4B2007F7730 /* KeyBoardLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984E71CBFD4B2007F7730 /* KeyBoardLineView.m */; };
+		523984EF1CBFD4B2007F7730 /* KeyBoardMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984E91CBFD4B2007F7730 /* KeyBoardMainButton.m */; };
+		523984F01CBFD4B2007F7730 /* SkinToneOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984EB1CBFD4B2007F7730 /* SkinToneOptionsView.m */; };
+		523984FE1CBFD4C1007F7730 /* EmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984F71CBFD4C1007F7730 /* EmojiCollectionViewCell.m */; };
+		523984FF1CBFD4C1007F7730 /* EmojiImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523984F91CBFD4C1007F7730 /* EmojiImageView.m */; };
+		523985051CBFD4D9007F7730 /* KeyboardViewControllerGlobalKeyboardsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 523985011CBFD4D8007F7730 /* KeyboardViewControllerGlobalKeyboardsProtocol.h */; };
+		523985061CBFD4D9007F7730 /* ButtonClickProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 523985021CBFD4D9007F7730 /* ButtonClickProtocol.h */; };
+		523985081CBFD4D9007F7730 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 523985041CBFD4D9007F7730 /* PrefixHeader.pch */; };
+		523985111CBFD6B2007F7730 /* MEConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 523985101CBFD6B2007F7730 /* MEConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		525844FC1CDCD01400D30FEF /* LanguagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525844FB1CDCD01400D30FEF /* LanguagesViewController.m */; };
+		52AE0DEF1CCF6D170074636A /* RMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AE0DED1CCF6D170074636A /* RMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AE0DF01CCF6D170074636A /* RMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AE0DEE1CCF6D170074636A /* RMUtils.m */; };
+		6605FC161D8458470046CAC2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6605FC151D8458470046CAC2 /* Media.xcassets */; };
+		6619756B1CEFC63E00ECABF3 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6619756A1CEFC63E00ECABF3 /* CHTCollectionViewWaterfallLayout.m */; };
+		6622D5A51CF12413000DC377 /* CCHDarwinNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6622D5A11CF12413000DC377 /* CCHDarwinNotificationCenter.h */; };
+		6622D5A61CF12413000DC377 /* CCHDarwinNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6622D5A21CF12413000DC377 /* CCHDarwinNotificationCenter.m */; };
+		6622D5A71CF12413000DC377 /* CCHDarwinNotificationCenterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6622D5A31CF12413000DC377 /* CCHDarwinNotificationCenterUtils.h */; };
+		6622D5A81CF12413000DC377 /* CCHDarwinNotificationCenterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6622D5A41CF12413000DC377 /* CCHDarwinNotificationCenterUtils.m */; };
+		6644B5451CC5829F00EFD42A /* KeyBoardModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6644B5441CC5829F00EFD42A /* KeyBoardModeView.m */; };
+		665B9DA61CF3D4DD009E8B3A /* BottomAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B9DA51CF3D4DD009E8B3A /* BottomAccessoryView.m */; };
+		66948DF41D845A3F0033ED15 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6605FC151D8458470046CAC2 /* Media.xcassets */; };
+		66B18E8E1CED152900A2F56A /* EmojiMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B18E8D1CED152900A2F56A /* EmojiMainViewController.m */; };
+		66B18E9D1CED209600A2F56A /* MainKeyBoardModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B18E9C1CED209600A2F56A /* MainKeyBoardModeViewController.m */; };
+		66DB60CE1CEF8CB000342D8D /* IndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB60CD1CEF8CB000342D8D /* IndexView.m */; };
+		82417D991D7EEE72006CF0F8 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 82417D981D7EEE72006CF0F8 /* UIImageEffects.m */; };
+		827F40541D80205800ED4327 /* optionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 827F40531D80205800ED4327 /* optionCollectionViewCell.m */; };
+		827F40571D80340000ED4327 /* SeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 827F40561D80340000ED4327 /* SeparatorView.m */; };
+		82AB6AED1D899A2F00A729B0 /* emojis in Resources */ = {isa = PBXBuildFile; fileRef = 82AB6AEA1D899A2F00A729B0 /* emojis */; };
+		82AB6AEE1D899A2F00A729B0 /* languages in Resources */ = {isa = PBXBuildFile; fileRef = 82AB6AEB1D899A2F00A729B0 /* languages */; };
+		82AB6AEF1D899A2F00A729B0 /* themes in Resources */ = {isa = PBXBuildFile; fileRef = 82AB6AEC1D899A2F00A729B0 /* themes */; };
+		82E638B31EE48543007C15AA /* NSArray+RMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E638AF1EE48543007C15AA /* NSArray+RMExtension.h */; };
+		82E638B41EE48543007C15AA /* NSArray+RMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E638B01EE48543007C15AA /* NSArray+RMExtension.m */; };
+		82E638B51EE48543007C15AA /* NSString+RMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E638B11EE48543007C15AA /* NSString+RMExtension.h */; };
+		82E638B61EE48543007C15AA /* NSString+RMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E638B21EE48543007C15AA /* NSString+RMExtension.m */; };
+		82EC66281EA4F30D002525CA /* HorizontalFloatingHeaderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC66271EA4F30D002525CA /* HorizontalFloatingHeaderLayout.m */; };
+		A817B4491EBC727100F337B9 /* VendorsOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A817B4481EBC727100F337B9 /* VendorsOptionsView.m */; };
+		A83ABDD21E9FC56400AAE95F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A83ABDD41E9FC56400AAE95F /* Localizable.strings */; };
+		A86AEAFB1ECEF8E600688630 /* iphone7_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = A86AEAFA1ECEF8E600688630 /* iphone7_edited.png */; };
+		A86AEB031ECF069A00688630 /* iphone_background_final.png in Resources */ = {isa = PBXBuildFile; fileRef = A86AEB021ECF069A00688630 /* iphone_background_final.png */; };
+		A86AEB051ECF21F800688630 /* iphone6S_EN_edited.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A86AEB041ECF21ED00688630 /* iphone6S_EN_edited.mp4 */; };
+		A87D8C4D1ED323620016D2D7 /* iPad_Mini_EN_edited.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A87D8C4C1ED323620016D2D7 /* iPad_Mini_EN_edited.mp4 */; };
+		A87D8C4F1ED327CD0016D2D7 /* iPad_Mini_EN_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = A87D8C4E1ED327CD0016D2D7 /* iPad_Mini_EN_edited.png */; };
+		A8B676BA1E9E6655004016E5 /* EmojiSectionHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B676B91E9E6655004016E5 /* EmojiSectionHeaderReusableView.m */; };
+		A8B995181EAA32C200678492 /* TutorialShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B995171EAA32C200678492 /* TutorialShapeLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		523984951CBFD031007F7730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523984691CBFD002007F7730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5239848E1CBFD031007F7730;
+			remoteInfo = RMKeyBoard;
+		};
+		523984A61CBFD0D3007F7730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523984691CBFD002007F7730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523984A01CBFD0D3007F7730;
+			remoteInfo = RMExtensionsFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5239849B1CBFD031007F7730 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				523984971CBFD031007F7730 /* RMKeyBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523984AD1CBFD0D3007F7730 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				523984A91CBFD0D3007F7730 /* RMExtensionsFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		523984711CBFD002007F7730 /* RMExtensionKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMExtensionKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		523984751CBFD002007F7730 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		523984771CBFD002007F7730 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		523984781CBFD002007F7730 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5239847A1CBFD002007F7730 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5239847B1CBFD002007F7730 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5239847E1CBFD002007F7730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523984801CBFD002007F7730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		523984831CBFD002007F7730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		523984851CBFD002007F7730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5239848F1CBFD031007F7730 /* RMKeyBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RMKeyBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		523984911CBFD031007F7730 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		523984921CBFD031007F7730 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		523984941CBFD031007F7730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523984A11CBFD0D3007F7730 /* RMExtensionsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMExtensionsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		523984A31CBFD0D3007F7730 /* RMExtensionsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMExtensionsFramework.h; sourceTree = "<group>"; };
+		523984A51CBFD0D3007F7730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523984C81CBFD274007F7730 /* KeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardManager.h; sourceTree = "<group>"; };
+		523984C91CBFD274007F7730 /* KeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardManager.m; sourceTree = "<group>"; };
+		523984DD1CBFD44A007F7730 /* UIColor+RedMak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RedMak.h"; sourceTree = "<group>"; };
+		523984DE1CBFD44A007F7730 /* UIColor+RedMak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RedMak.m"; sourceTree = "<group>"; };
+		523984E41CBFD4B2007F7730 /* TopAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAccessoryView.h; sourceTree = "<group>"; };
+		523984E51CBFD4B2007F7730 /* TopAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopAccessoryView.m; sourceTree = "<group>"; };
+		523984E61CBFD4B2007F7730 /* KeyBoardLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardLineView.h; sourceTree = "<group>"; };
+		523984E71CBFD4B2007F7730 /* KeyBoardLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardLineView.m; sourceTree = "<group>"; };
+		523984E81CBFD4B2007F7730 /* KeyBoardMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardMainButton.h; sourceTree = "<group>"; };
+		523984E91CBFD4B2007F7730 /* KeyBoardMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardMainButton.m; sourceTree = "<group>"; };
+		523984EA1CBFD4B2007F7730 /* SkinToneOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinToneOptionsView.h; sourceTree = "<group>"; };
+		523984EB1CBFD4B2007F7730 /* SkinToneOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinToneOptionsView.m; sourceTree = "<group>"; };
+		523984F61CBFD4C1007F7730 /* EmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		523984F71CBFD4C1007F7730 /* EmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		523984F81CBFD4C1007F7730 /* EmojiImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiImageView.h; sourceTree = "<group>"; };
+		523984F91CBFD4C1007F7730 /* EmojiImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiImageView.m; sourceTree = "<group>"; };
+		523985011CBFD4D8007F7730 /* KeyboardViewControllerGlobalKeyboardsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardViewControllerGlobalKeyboardsProtocol.h; sourceTree = "<group>"; };
+		523985021CBFD4D9007F7730 /* ButtonClickProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonClickProtocol.h; sourceTree = "<group>"; };
+		523985041CBFD4D9007F7730 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		523985101CBFD6B2007F7730 /* MEConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEConfig.h; sourceTree = "<group>"; };
+		523985131CBFE581007F7730 /* RMExtensionKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RMExtensionKeyboard.entitlements; sourceTree = "<group>"; };
+		525844FA1CDCD01400D30FEF /* LanguagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguagesViewController.h; sourceTree = "<group>"; };
+		525844FB1CDCD01400D30FEF /* LanguagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguagesViewController.m; sourceTree = "<group>"; };
+		52AE0DED1CCF6D170074636A /* RMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMUtils.h; sourceTree = "<group>"; };
+		52AE0DEE1CCF6D170074636A /* RMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMUtils.m; sourceTree = "<group>"; };
+		6605FC151D8458470046CAC2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		661975691CEFC63E00ECABF3 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		6619756A1CEFC63E00ECABF3 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		6620DDC41CEE6AFF000391A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6622D5A11CF12413000DC377 /* CCHDarwinNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHDarwinNotificationCenter.h; sourceTree = "<group>"; };
+		6622D5A21CF12413000DC377 /* CCHDarwinNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHDarwinNotificationCenter.m; sourceTree = "<group>"; };
+		6622D5A31CF12413000DC377 /* CCHDarwinNotificationCenterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHDarwinNotificationCenterUtils.h; sourceTree = "<group>"; };
+		6622D5A41CF12413000DC377 /* CCHDarwinNotificationCenterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHDarwinNotificationCenterUtils.m; sourceTree = "<group>"; };
+		662A65CA1CC005F8007FABD7 /* RMKeyBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RMKeyBoard.entitlements; sourceTree = "<group>"; };
+		6644B5431CC5829F00EFD42A /* KeyBoardModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardModeView.h; sourceTree = "<group>"; };
+		6644B5441CC5829F00EFD42A /* KeyBoardModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardModeView.m; sourceTree = "<group>"; };
+		665B9DA41CF3D4DD009E8B3A /* BottomAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomAccessoryView.h; sourceTree = "<group>"; };
+		665B9DA51CF3D4DD009E8B3A /* BottomAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomAccessoryView.m; sourceTree = "<group>"; };
+		6698FA3F1CFBCDC0009D5EF6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		669E7C671CFB486E00E99685 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../Library/Developer/Xcode/DerivedData/RMExtensionKeyboard-agkmynfppzatnfeelkrfqzhnifix/Build/Products/Debug-iphoneos/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
+		66B18E8C1CED152900A2F56A /* EmojiMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiMainViewController.h; sourceTree = "<group>"; };
+		66B18E8D1CED152900A2F56A /* EmojiMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiMainViewController.m; sourceTree = "<group>"; };
+		66B18E9B1CED209600A2F56A /* MainKeyBoardModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainKeyBoardModeViewController.h; sourceTree = "<group>"; };
+		66B18E9C1CED209600A2F56A /* MainKeyBoardModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainKeyBoardModeViewController.m; sourceTree = "<group>"; };
+		66DB60CC1CEF8CB000342D8D /* IndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexView.h; sourceTree = "<group>"; };
+		66DB60CD1CEF8CB000342D8D /* IndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexView.m; sourceTree = "<group>"; };
+		82417D971D7EEE72006CF0F8 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		82417D981D7EEE72006CF0F8 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		827F40521D80205800ED4327 /* optionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optionCollectionViewCell.h; sourceTree = "<group>"; };
+		827F40531D80205800ED4327 /* optionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = optionCollectionViewCell.m; sourceTree = "<group>"; };
+		827F40551D80340000ED4327 /* SeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorView.h; sourceTree = "<group>"; };
+		827F40561D80340000ED4327 /* SeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorView.m; sourceTree = "<group>"; };
+		82A8F4091D89A391009045A0 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		82AB6AEA1D899A2F00A729B0 /* emojis */ = {isa = PBXFileReference; lastKnownFileType = folder; path = emojis; sourceTree = "<group>"; };
+		82AB6AEB1D899A2F00A729B0 /* languages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = languages; sourceTree = "<group>"; };
+		82AB6AEC1D899A2F00A729B0 /* themes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = themes; sourceTree = "<group>"; };
+		82D188ED1D82D89700AED445 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		82E638AF1EE48543007C15AA /* NSArray+RMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RMExtension.h"; sourceTree = "<group>"; };
+		82E638B01EE48543007C15AA /* NSArray+RMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RMExtension.m"; sourceTree = "<group>"; };
+		82E638B11EE48543007C15AA /* NSString+RMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RMExtension.h"; sourceTree = "<group>"; };
+		82E638B21EE48543007C15AA /* NSString+RMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RMExtension.m"; sourceTree = "<group>"; };
+		82EC66261EA4F30D002525CA /* HorizontalFloatingHeaderLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalFloatingHeaderLayout.h; sourceTree = "<group>"; };
+		82EC66271EA4F30D002525CA /* HorizontalFloatingHeaderLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalFloatingHeaderLayout.m; sourceTree = "<group>"; };
+		82F7F4A01EA013F100F4DABC /* RMKeyBoard-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMKeyBoard-Bridging-Header.h"; sourceTree = "<group>"; };
+		A817B4471EBC727100F337B9 /* VendorsOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorsOptionsView.h; sourceTree = "<group>"; };
+		A817B4481EBC727100F337B9 /* VendorsOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VendorsOptionsView.m; sourceTree = "<group>"; };
+		A83ABDCD1E9FC4C100AAE95F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A83ABDD31E9FC56400AAE95F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A83ABDD61E9FC57C00AAE95F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A83ABDD81E9FC57D00AAE95F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A86AEAED1ECB320100688630 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A86AEAFA1ECEF8E600688630 /* iphone7_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone7_edited.png; sourceTree = "<group>"; };
+		A86AEB021ECF069A00688630 /* iphone_background_final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_background_final.png; sourceTree = "<group>"; };
+		A86AEB041ECF21ED00688630 /* iphone6S_EN_edited.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iphone6S_EN_edited.mp4; sourceTree = "<group>"; };
+		A86AEB0B1ECF4CBB00688630 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		A86AEB0D1ECF4CBF00688630 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A87D8C4C1ED323620016D2D7 /* iPad_Mini_EN_edited.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPad_Mini_EN_edited.mp4; sourceTree = "<group>"; };
+		A87D8C4E1ED327CD0016D2D7 /* iPad_Mini_EN_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_Mini_EN_edited.png; sourceTree = "<group>"; };
+		A8B676B81E9E6655004016E5 /* EmojiSectionHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiSectionHeaderReusableView.h; sourceTree = "<group>"; };
+		A8B676B91E9E6655004016E5 /* EmojiSectionHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiSectionHeaderReusableView.m; sourceTree = "<group>"; };
+		A8B995161EAA32C200678492 /* TutorialShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialShapeLayer.h; sourceTree = "<group>"; };
+		A8B995171EAA32C200678492 /* TutorialShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialShapeLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5239846E1CBFD002007F7730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523984A81CBFD0D3007F7730 /* RMExtensionsFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239848C1CBFD031007F7730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523984AE1CBFD130007F7730 /* RMExtensionsFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239849D1CBFD0D3007F7730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523984681CBFD002007F7730 = {
+			isa = PBXGroup;
+			children = (
+				523984A21CBFD0D3007F7730 /* RMExtensionsFramework */,
+				523984731CBFD002007F7730 /* RMExtensionKeyboard */,
+				523984901CBFD031007F7730 /* RMKeyBoard */,
+				523984CC1CBFD290007F7730 /* Extrenals */,
+				523984721CBFD002007F7730 /* Products */,
+				59A46DCE8AA429B751F4B569 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		523984721CBFD002007F7730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523984711CBFD002007F7730 /* RMExtensionKeyboard.app */,
+				5239848F1CBFD031007F7730 /* RMKeyBoard.appex */,
+				523984A11CBFD0D3007F7730 /* RMExtensionsFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523984731CBFD002007F7730 /* RMExtensionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAF91ECEF8DA00688630 /* ressources */,
+				525844F91CDCCFFB00D30FEF /* viewControllers */,
+				523985131CBFE581007F7730 /* RMExtensionKeyboard.entitlements */,
+				523984771CBFD002007F7730 /* AppDelegate.h */,
+				523984781CBFD002007F7730 /* AppDelegate.m */,
+				5239847A1CBFD002007F7730 /* ViewController.h */,
+				5239847B1CBFD002007F7730 /* ViewController.m */,
+				5239847D1CBFD002007F7730 /* Main.storyboard */,
+				523984801CBFD002007F7730 /* Assets.xcassets */,
+				523984821CBFD002007F7730 /* LaunchScreen.storyboard */,
+				523984851CBFD002007F7730 /* Info.plist */,
+				523984741CBFD002007F7730 /* Supporting Files */,
+			);
+			path = RMExtensionKeyboard;
+			sourceTree = "<group>";
+		};
+		523984741CBFD002007F7730 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				523984751CBFD002007F7730 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		523984901CBFD031007F7730 /* RMKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A83ABDCF1E9FC52300AAE95F /* localizable */,
+				6605FC151D8458470046CAC2 /* Media.xcassets */,
+				662A65CA1CC005F8007FABD7 /* RMKeyBoard.entitlements */,
+				66B18E8B1CED14E900A2F56A /* viewControllers */,
+				669B340C1CC6E3B500617AF0 /* Externals */,
+				523984E11CBFD4A2007F7730 /* views */,
+				523984911CBFD031007F7730 /* KeyboardViewController.h */,
+				523984921CBFD031007F7730 /* KeyboardViewController.m */,
+				523985011CBFD4D8007F7730 /* KeyboardViewControllerGlobalKeyboardsProtocol.h */,
+				523985021CBFD4D9007F7730 /* ButtonClickProtocol.h */,
+				523985041CBFD4D9007F7730 /* PrefixHeader.pch */,
+				523984941CBFD031007F7730 /* Info.plist */,
+				82D188ED1D82D89700AED445 /* Config.h */,
+			);
+			path = RMKeyBoard;
+			sourceTree = "<group>";
+		};
+		523984A21CBFD0D3007F7730 /* RMExtensionsFramework */ = {
+			isa = PBXGroup;
+			children = (
+				82AB6AE91D8999EB00A729B0 /* keys */,
+				523985101CBFD6B2007F7730 /* MEConfig.h */,
+				523984DC1CBFD437007F7730 /* categories */,
+				523984C81CBFD274007F7730 /* KeyBoardManager.h */,
+				523984C91CBFD274007F7730 /* KeyBoardManager.m */,
+				523984A31CBFD0D3007F7730 /* RMExtensionsFramework.h */,
+				523984A51CBFD0D3007F7730 /* Info.plist */,
+				52AE0DED1CCF6D170074636A /* RMUtils.h */,
+				52AE0DEE1CCF6D170074636A /* RMUtils.m */,
+			);
+			path = RMExtensionsFramework;
+			sourceTree = "<group>";
+		};
+		523984CC1CBFD290007F7730 /* Extrenals */ = {
+			isa = PBXGroup;
+			children = (
+				6622D5A01CF12413000DC377 /* CCHDarwinNotificationCenter */,
+			);
+			name = Extrenals;
+			sourceTree = "<group>";
+		};
+		523984DC1CBFD437007F7730 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				82E638AF1EE48543007C15AA /* NSArray+RMExtension.h */,
+				82E638B01EE48543007C15AA /* NSArray+RMExtension.m */,
+				82E638B11EE48543007C15AA /* NSString+RMExtension.h */,
+				82E638B21EE48543007C15AA /* NSString+RMExtension.m */,
+				523984DD1CBFD44A007F7730 /* UIColor+RedMak.h */,
+				523984DE1CBFD44A007F7730 /* UIColor+RedMak.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		523984E11CBFD4A2007F7730 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				827F40511D80201500ED4327 /* optionView */,
+				669E7C661CFB2C9A00E99685 /* BottomAccessoryView */,
+				66DB60CB1CEF8C9A00342D8D /* indexView */,
+				5296C5A91CC4F9AF00CE2F33 /* AccessoryView */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		523984F11CBFD4B6007F7730 /* emoji */ = {
+			isa = PBXGroup;
+			children = (
+				66B18E8C1CED152900A2F56A /* EmojiMainViewController.h */,
+				66B18E8D1CED152900A2F56A /* EmojiMainViewController.m */,
+				82EC66261EA4F30D002525CA /* HorizontalFloatingHeaderLayout.h */,
+				82EC66271EA4F30D002525CA /* HorizontalFloatingHeaderLayout.m */,
+				523984F61CBFD4C1007F7730 /* EmojiCollectionViewCell.h */,
+				523984F71CBFD4C1007F7730 /* EmojiCollectionViewCell.m */,
+				A8B676B81E9E6655004016E5 /* EmojiSectionHeaderReusableView.h */,
+				A8B676B91E9E6655004016E5 /* EmojiSectionHeaderReusableView.m */,
+				82F7F4A01EA013F100F4DABC /* RMKeyBoard-Bridging-Header.h */,
+			);
+			name = emoji;
+			sourceTree = "<group>";
+		};
+		525844F91CDCCFFB00D30FEF /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				525844FA1CDCD01400D30FEF /* LanguagesViewController.h */,
+				525844FB1CDCD01400D30FEF /* LanguagesViewController.m */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		5296C5961CC4E56100CE2F33 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				66B18E9B1CED209600A2F56A /* MainKeyBoardModeViewController.h */,
+				66B18E9C1CED209600A2F56A /* MainKeyBoardModeViewController.m */,
+				6644B5431CC5829F00EFD42A /* KeyBoardModeView.h */,
+				6644B5441CC5829F00EFD42A /* KeyBoardModeView.m */,
+				523984E61CBFD4B2007F7730 /* KeyBoardLineView.h */,
+				523984E71CBFD4B2007F7730 /* KeyBoardLineView.m */,
+				523984E81CBFD4B2007F7730 /* KeyBoardMainButton.h */,
+				523984E91CBFD4B2007F7730 /* KeyBoardMainButton.m */,
+			);
+			name = KeyBoard;
+			sourceTree = "<group>";
+		};
+		5296C5A91CC4F9AF00CE2F33 /* AccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				523984E41CBFD4B2007F7730 /* TopAccessoryView.h */,
+				523984E51CBFD4B2007F7730 /* TopAccessoryView.m */,
+			);
+			name = AccessoryView;
+			sourceTree = "<group>";
+		};
+		59A46DCE8AA429B751F4B569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAED1ECB320100688630 /* QuartzCore.framework */,
+				6698FA3F1CFBCDC0009D5EF6 /* ImageIO.framework */,
+				669E7C671CFB486E00E99685 /* libSDWebImage.a */,
+				6620DDC41CEE6AFF000391A8 /* CoreGraphics.framework */,
+				82A8F4091D89A391009045A0 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		661975681CEFC62200ECABF3 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				661975691CEFC63E00ECABF3 /* CHTCollectionViewWaterfallLayout.h */,
+				6619756A1CEFC63E00ECABF3 /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		6622D5A01CF12413000DC377 /* CCHDarwinNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6622D5A11CF12413000DC377 /* CCHDarwinNotificationCenter.h */,
+				6622D5A21CF12413000DC377 /* CCHDarwinNotificationCenter.m */,
+				6622D5A31CF12413000DC377 /* CCHDarwinNotificationCenterUtils.h */,
+				6622D5A41CF12413000DC377 /* CCHDarwinNotificationCenterUtils.m */,
+			);
+			path = CCHDarwinNotificationCenter;
+			sourceTree = "<group>";
+		};
+		669B340C1CC6E3B500617AF0 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				82417D961D7EEE6A006CF0F8 /* UIImageEffects */,
+				661975681CEFC62200ECABF3 /* CHTCollectionViewWaterfallLayout */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		669E7C661CFB2C9A00E99685 /* BottomAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				665B9DA41CF3D4DD009E8B3A /* BottomAccessoryView.h */,
+				665B9DA51CF3D4DD009E8B3A /* BottomAccessoryView.m */,
+			);
+			name = BottomAccessoryView;
+			sourceTree = "<group>";
+		};
+		66B18E8B1CED14E900A2F56A /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8B995151EAA325E00678492 /* tutorial view */,
+				5296C5961CC4E56100CE2F33 /* KeyBoard */,
+				523984F11CBFD4B6007F7730 /* emoji */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		66DB60CB1CEF8C9A00342D8D /* indexView */ = {
+			isa = PBXGroup;
+			children = (
+				66DB60CC1CEF8CB000342D8D /* IndexView.h */,
+				66DB60CD1CEF8CB000342D8D /* IndexView.m */,
+			);
+			name = indexView;
+			sourceTree = "<group>";
+		};
+		82417D961D7EEE6A006CF0F8 /* UIImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				82417D971D7EEE72006CF0F8 /* UIImageEffects.h */,
+				82417D981D7EEE72006CF0F8 /* UIImageEffects.m */,
+			);
+			name = UIImageEffects;
+			sourceTree = "<group>";
+		};
+		827F40511D80201500ED4327 /* optionView */ = {
+			isa = PBXGroup;
+			children = (
+				523984EA1CBFD4B2007F7730 /* SkinToneOptionsView.h */,
+				523984EB1CBFD4B2007F7730 /* SkinToneOptionsView.m */,
+				A817B4471EBC727100F337B9 /* VendorsOptionsView.h */,
+				A817B4481EBC727100F337B9 /* VendorsOptionsView.m */,
+				523984F81CBFD4C1007F7730 /* EmojiImageView.h */,
+				523984F91CBFD4C1007F7730 /* EmojiImageView.m */,
+				827F40521D80205800ED4327 /* optionCollectionViewCell.h */,
+				827F40531D80205800ED4327 /* optionCollectionViewCell.m */,
+				827F40551D80340000ED4327 /* SeparatorView.h */,
+				827F40561D80340000ED4327 /* SeparatorView.m */,
+			);
+			name = optionView;
+			sourceTree = "<group>";
+		};
+		82AB6AE91D8999EB00A729B0 /* keys */ = {
+			isa = PBXGroup;
+			children = (
+				82AB6AEA1D899A2F00A729B0 /* emojis */,
+				82AB6AEB1D899A2F00A729B0 /* languages */,
+				82AB6AEC1D899A2F00A729B0 /* themes */,
+			);
+			name = keys;
+			sourceTree = "<group>";
+		};
+		A83ABDCF1E9FC52300AAE95F /* localizable */ = {
+			isa = PBXGroup;
+			children = (
+				A83ABDD41E9FC56400AAE95F /* Localizable.strings */,
+			);
+			name = localizable;
+			sourceTree = "<group>";
+		};
+		A86AEAF91ECEF8DA00688630 /* ressources */ = {
+			isa = PBXGroup;
+			children = (
+				A87D8C4E1ED327CD0016D2D7 /* iPad_Mini_EN_edited.png */,
+				A87D8C4C1ED323620016D2D7 /* iPad_Mini_EN_edited.mp4 */,
+				A86AEB021ECF069A00688630 /* iphone_background_final.png */,
+				A86AEAFA1ECEF8E600688630 /* iphone7_edited.png */,
+				A86AEB041ECF21ED00688630 /* iphone6S_EN_edited.mp4 */,
+			);
+			name = ressources;
+			sourceTree = "<group>";
+		};
+		A8B995151EAA325E00678492 /* tutorial view */ = {
+			isa = PBXGroup;
+			children = (
+				A8B995161EAA32C200678492 /* TutorialShapeLayer.h */,
+				A8B995171EAA32C200678492 /* TutorialShapeLayer.m */,
+			);
+			name = "tutorial view";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5239849E1CBFD0D3007F7730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523985081CBFD4D9007F7730 /* PrefixHeader.pch in Headers */,
+				523984DF1CBFD44A007F7730 /* UIColor+RedMak.h in Headers */,
+				6622D5A51CF12413000DC377 /* CCHDarwinNotificationCenter.h in Headers */,
+				82E638B51EE48543007C15AA /* NSString+RMExtension.h in Headers */,
+				523985051CBFD4D9007F7730 /* KeyboardViewControllerGlobalKeyboardsProtocol.h in Headers */,
+				6622D5A71CF12413000DC377 /* CCHDarwinNotificationCenterUtils.h in Headers */,
+				523984A41CBFD0D3007F7730 /* RMExtensionsFramework.h in Headers */,
+				523985061CBFD4D9007F7730 /* ButtonClickProtocol.h in Headers */,
+				82E638B31EE48543007C15AA /* NSArray+RMExtension.h in Headers */,
+				52AE0DEF1CCF6D170074636A /* RMUtils.h in Headers */,
+				523984CA1CBFD275007F7730 /* KeyBoardManager.h in Headers */,
+				523985111CBFD6B2007F7730 /* MEConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		523984701CBFD002007F7730 /* RMExtensionKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523984881CBFD002007F7730 /* Build configuration list for PBXNativeTarget "RMExtensionKeyboard" */;
+			buildPhases = (
+				5239846D1CBFD002007F7730 /* Sources */,
+				5239846E1CBFD002007F7730 /* Frameworks */,
+				5239846F1CBFD002007F7730 /* Resources */,
+				5239849B1CBFD031007F7730 /* Embed App Extensions */,
+				523984AD1CBFD0D3007F7730 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523984961CBFD031007F7730 /* PBXTargetDependency */,
+				523984A71CBFD0D3007F7730 /* PBXTargetDependency */,
+			);
+			name = RMExtensionKeyboard;
+			productName = RMExtensionKeyboard;
+			productReference = 523984711CBFD002007F7730 /* RMExtensionKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5239848E1CBFD031007F7730 /* RMKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523984981CBFD031007F7730 /* Build configuration list for PBXNativeTarget "RMKeyBoard" */;
+			buildPhases = (
+				5239848B1CBFD031007F7730 /* Sources */,
+				5239848C1CBFD031007F7730 /* Frameworks */,
+				5239848D1CBFD031007F7730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMKeyBoard;
+			productName = RMKeyBoard;
+			productReference = 5239848F1CBFD031007F7730 /* RMKeyBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		523984A01CBFD0D3007F7730 /* RMExtensionsFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523984AA1CBFD0D3007F7730 /* Build configuration list for PBXNativeTarget "RMExtensionsFramework" */;
+			buildPhases = (
+				5239849C1CBFD0D3007F7730 /* Sources */,
+				5239849D1CBFD0D3007F7730 /* Frameworks */,
+				5239849E1CBFD0D3007F7730 /* Headers */,
+				5239849F1CBFD0D3007F7730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMExtensionsFramework;
+			productName = RMExtensionsFramework;
+			productReference = 523984A11CBFD0D3007F7730 /* RMExtensionsFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523984691CBFD002007F7730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RedMak;
+				TargetAttributes = {
+					523984701CBFD002007F7730 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HD7UMSM533;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					5239848E1CBFD031007F7730 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HD7UMSM533;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					523984A01CBFD0D3007F7730 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5239846C1CBFD002007F7730 /* Build configuration list for PBXProject "RMExtensionKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				fr,
+				en,
+			);
+			mainGroup = 523984681CBFD002007F7730;
+			productRefGroup = 523984721CBFD002007F7730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				523984701CBFD002007F7730 /* RMExtensionKeyboard */,
+				5239848E1CBFD031007F7730 /* RMKeyBoard */,
+				523984A01CBFD0D3007F7730 /* RMExtensionsFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5239846F1CBFD002007F7730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87D8C4D1ED323620016D2D7 /* iPad_Mini_EN_edited.mp4 in Resources */,
+				A87D8C4F1ED327CD0016D2D7 /* iPad_Mini_EN_edited.png in Resources */,
+				523984841CBFD002007F7730 /* LaunchScreen.storyboard in Resources */,
+				A86AEAFB1ECEF8E600688630 /* iphone7_edited.png in Resources */,
+				523984811CBFD002007F7730 /* Assets.xcassets in Resources */,
+				A86AEB051ECF21F800688630 /* iphone6S_EN_edited.mp4 in Resources */,
+				6605FC161D8458470046CAC2 /* Media.xcassets in Resources */,
+				5239847F1CBFD002007F7730 /* Main.storyboard in Resources */,
+				A86AEB031ECF069A00688630 /* iphone_background_final.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239848D1CBFD031007F7730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66948DF41D845A3F0033ED15 /* Media.xcassets in Resources */,
+				A83ABDD21E9FC56400AAE95F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239849F1CBFD0D3007F7730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AB6AEE1D899A2F00A729B0 /* languages in Resources */,
+				82AB6AED1D899A2F00A729B0 /* emojis in Resources */,
+				82AB6AEF1D899A2F00A729B0 /* themes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5239846D1CBFD002007F7730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5239847C1CBFD002007F7730 /* ViewController.m in Sources */,
+				523984791CBFD002007F7730 /* AppDelegate.m in Sources */,
+				525844FC1CDCD01400D30FEF /* LanguagesViewController.m in Sources */,
+				523984761CBFD002007F7730 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239848B1CBFD031007F7730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523984931CBFD031007F7730 /* KeyboardViewController.m in Sources */,
+				66B18E9D1CED209600A2F56A /* MainKeyBoardModeViewController.m in Sources */,
+				827F40541D80205800ED4327 /* optionCollectionViewCell.m in Sources */,
+				A817B4491EBC727100F337B9 /* VendorsOptionsView.m in Sources */,
+				523984F01CBFD4B2007F7730 /* SkinToneOptionsView.m in Sources */,
+				A8B676BA1E9E6655004016E5 /* EmojiSectionHeaderReusableView.m in Sources */,
+				523984FF1CBFD4C1007F7730 /* EmojiImageView.m in Sources */,
+				523984FE1CBFD4C1007F7730 /* EmojiCollectionViewCell.m in Sources */,
+				665B9DA61CF3D4DD009E8B3A /* BottomAccessoryView.m in Sources */,
+				523984EE1CBFD4B2007F7730 /* KeyBoardLineView.m in Sources */,
+				A8B995181EAA32C200678492 /* TutorialShapeLayer.m in Sources */,
+				82417D991D7EEE72006CF0F8 /* UIImageEffects.m in Sources */,
+				66B18E8E1CED152900A2F56A /* EmojiMainViewController.m in Sources */,
+				523984ED1CBFD4B2007F7730 /* TopAccessoryView.m in Sources */,
+				827F40571D80340000ED4327 /* SeparatorView.m in Sources */,
+				523984EF1CBFD4B2007F7730 /* KeyBoardMainButton.m in Sources */,
+				82EC66281EA4F30D002525CA /* HorizontalFloatingHeaderLayout.m in Sources */,
+				6619756B1CEFC63E00ECABF3 /* CHTCollectionViewWaterfallLayout.m in Sources */,
+				6644B5451CC5829F00EFD42A /* KeyBoardModeView.m in Sources */,
+				66DB60CE1CEF8CB000342D8D /* IndexView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5239849C1CBFD0D3007F7730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523984CB1CBFD275007F7730 /* KeyBoardManager.m in Sources */,
+				82E638B61EE48543007C15AA /* NSString+RMExtension.m in Sources */,
+				82E638B41EE48543007C15AA /* NSArray+RMExtension.m in Sources */,
+				52AE0DF01CCF6D170074636A /* RMUtils.m in Sources */,
+				523984E01CBFD44A007F7730 /* UIColor+RedMak.m in Sources */,
+				6622D5A61CF12413000DC377 /* CCHDarwinNotificationCenter.m in Sources */,
+				6622D5A81CF12413000DC377 /* CCHDarwinNotificationCenterUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		523984961CBFD031007F7730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5239848E1CBFD031007F7730 /* RMKeyBoard */;
+			targetProxy = 523984951CBFD031007F7730 /* PBXContainerItemProxy */;
+		};
+		523984A71CBFD0D3007F7730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523984A01CBFD0D3007F7730 /* RMExtensionsFramework */;
+			targetProxy = 523984A61CBFD0D3007F7730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5239847D1CBFD002007F7730 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5239847E1CBFD002007F7730 /* Base */,
+				A86AEB0B1ECF4CBB00688630 /* fr */,
+				A86AEB0D1ECF4CBF00688630 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523984821CBFD002007F7730 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523984831CBFD002007F7730 /* Base */,
+				A83ABDCD1E9FC4C100AAE95F /* en */,
+				A83ABDD61E9FC57C00AAE95F /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A83ABDD41E9FC56400AAE95F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83ABDD31E9FC56400AAE95F /* en */,
+				A83ABDD81E9FC57D00AAE95F /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		523984861CBFD002007F7730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523984871CBFD002007F7730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523984891CBFD002007F7730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HD7UMSM533;
+				INFOPLIST_FILE = RMExtensionKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmakapps.emojiKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		5239848A1CBFD002007F7730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HD7UMSM533;
+				INFOPLIST_FILE = RMExtensionKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmakapps.emojiKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		523984991CBFD031007F7730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HD7UMSM533;
+				GCC_PREFIX_HEADER = RMKeyBoard/PrefixHeader.pch;
+				INFOPLIST_FILE = RMKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmakapps.emojiKeyBoard.keyBoardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RMKeyBoard/RMKeyBoard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5239849A1CBFD031007F7730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HD7UMSM533;
+				GCC_PREFIX_HEADER = RMKeyBoard/PrefixHeader.pch;
+				INFOPLIST_FILE = RMKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmakapps.emojiKeyBoard.keyBoardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RMKeyBoard/RMKeyBoard-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		523984AB1CBFD0D3007F7730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RMExtensionsFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.streamwide.RMExtensionsFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		523984AC1CBFD0D3007F7730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RMExtensionsFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.streamwide.RMExtensionsFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5239846C1CBFD002007F7730 /* Build configuration list for PBXProject "RMExtensionKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523984861CBFD002007F7730 /* Debug */,
+				523984871CBFD002007F7730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523984881CBFD002007F7730 /* Build configuration list for PBXNativeTarget "RMExtensionKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523984891CBFD002007F7730 /* Debug */,
+				5239848A1CBFD002007F7730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523984981CBFD031007F7730 /* Build configuration list for PBXNativeTarget "RMKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523984991CBFD031007F7730 /* Debug */,
+				5239849A1CBFD031007F7730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523984AA1CBFD0D3007F7730 /* Build configuration list for PBXNativeTarget "RMExtensionsFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523984AB1CBFD0D3007F7730 /* Debug */,
+				523984AC1CBFD0D3007F7730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523984691CBFD002007F7730 /* Project object */;
+}

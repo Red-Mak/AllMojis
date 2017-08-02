@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecondaryCharacter</key>
+	<dict>
+		<key>✊🏻</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist: Light Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>✊🏻</string>
+		</dict>
+		<key>✊🏼</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist: Medium-Light Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>✊🏼</string>
+		</dict>
+		<key>✊🏽</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist: Medium Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>✊🏽</string>
+		</dict>
+		<key>✊🏾</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist: Medium-Dark Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>✊🏾</string>
+		</dict>
+		<key>✊🏿</key>
+		<dict>
+			<key>emojiName</key>
+			<string> Raised Fist: Dark Skin Tone</string>
+			<key>emojiUniocode</key>
+			<string>✊🏿</string>
+		</dict>
+	</dict>
+	<key>emojiName</key>
+	<string> Raised Fist</string>
+	<key>emojiUniocode</key>
+	<string>✊️</string>
+</dict>
+</plist>
